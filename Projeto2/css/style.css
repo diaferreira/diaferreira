@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:burlywood;
+  }
+          
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+  }
+  
+
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .item img {
+    max-height: 250px;
+    margin-right: 250px;
+  }
+
+  .item2 {
+    max-height: 40px;
+    margin-right: 6%S;
+
+  } 
+
+  .item3 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .item4 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .item-info {
+    flex: 1;
+  }
+
+  .item-name {
+    font-weight: bold;
+  }
+
+  .item-description {
+    color: #555;
+    margin-bottom: 5px;
+  }
+
+  .item-price {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .item-order {
+    text-align: right;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
